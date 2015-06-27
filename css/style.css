@@ -33,17 +33,19 @@ blockquote {
 /* Header */
 
 header {
-	text-align: center;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 
 .header-name {
-	font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .header-image {
 	border-radius: 50%;
 	width: 130px;
-	margin: 15px 0 15px 0;
+	margin: 10px 0;
 	height: 130px;
 }
 
