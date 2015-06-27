@@ -19,6 +19,13 @@ blockquote {
     padding-left: 15px;
 }
 
+/* Home page */
+
+.home-image {
+	float: left;
+	margin: 0 0 5px;
+}
+
 /* Links */
 
 a, a:visited, a:focus, a:active {
