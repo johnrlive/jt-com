@@ -30,15 +30,20 @@ blockquote {
 
 /* Menu */
 
+nav {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+nav ul {
+    padding: 0;
+}
+
 .menu li {
     display: inline-block;
-    padding: 5px 10px;
-    width: auto;
-    line-height: 0.8;
     margin: 0;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    position: relative;
+    padding: 5px 15px 5px 0;
 }
 
 /* Links */
