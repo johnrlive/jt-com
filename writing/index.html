@@ -5,8 +5,11 @@ description: Jordan Tuwiner.
 ---
 
 <div class="entry-content">
-	<h3>Non-fiction</h3>
-		<ul>
-			<li>Vasili</li>
-		</ul>
+	<h1>Writing</h1>
+	<ul class="posts">
+    {% assign posts = site.posts | where:'category', 'writing' %}
+    {% for post in posts %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
