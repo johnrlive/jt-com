@@ -6,6 +6,11 @@ body {
     font: 17px/26px "Open Sans",Georgia,"Times New Roman",Times,serif;
 }
 
+#content {
+	max-width: 800px;
+	margin: 0px 40px;
+}
+
 /* Content */
 
 blockquote {
