@@ -5,6 +5,9 @@ description: Jordan Tuwiner.
 ---
 
 <div class="entry-content">
+	<h1 class="page-title">
+		<a href="/writing/" title="{{ page.title }}">{{ page.title }}</a>
+	</h1>
 	<ul class="posts">
     {% assign posts = site.posts | where:'category', 'writing' %}
     {% for post in posts %}
