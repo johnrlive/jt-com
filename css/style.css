@@ -6,7 +6,9 @@ body {
     font: 17px/26px "Open Sans",Georgia,"Times New Roman",Times,serif;
 }
 
-#content {
+#content, header, footer {
+    display: block;
+    float: none;
     margin: 0 auto;
     max-width: 800px;
     padding: 0 20px;
@@ -21,6 +23,10 @@ blockquote {
 
 /* Home page */
 
+header {
+	text-align: center;
+}
+
 .home-image {
     float: left;
     height: auto;
@@ -31,6 +37,8 @@ blockquote {
 /* Header */
 
 #content, header, footer {
+    display: block;
+    float: none;
     margin: 0 auto;
     max-width: 800px;
 }
