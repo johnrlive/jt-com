@@ -1,5 +1,20 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:300";
 
+/* General */
+
 body {
     font: 17px/26px "Open Sans",Georgia,"Times New Roman",Times,serif;
+}
+
+/* Content */
+
+blockquote {
+    border: 3px solid #e60000;
+    padding-left: 15px;
+}
+
+/* Links */
+
+a, a:visited, a:hover, a:focus, a:active {
+    color: #e60000;
 }
