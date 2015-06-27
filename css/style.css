@@ -62,10 +62,16 @@ nav ul {
     padding: 0;
 }
 
-.menu li {
+header .menu li {
     display: inline-block;
     margin: 0;
     padding: 5px 15px 5px 0;
+}
+
+footer .menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 3px 15px 5px 0;
 }
 
 /* Links */
