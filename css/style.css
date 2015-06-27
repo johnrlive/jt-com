@@ -25,7 +25,6 @@ blockquote {
 
 header {
 	text-align: center;
-	padding: 15px 0 0 0;
 }
 
 .home-image {
@@ -47,6 +46,7 @@ header {
 .header-image {
 	border-radius: 50%;
 	width: 130px;
+	margin: 0 0 15px 0;
 	height: 130px;
 }
 
