@@ -1,0 +1,13 @@
+---
+layout: page
+title: Projects
+description: Jordan Tuwiner.
+permalink: "/projects/"
+---
+<div class="entry-content projects">
+	<p>Some things I've created.</p>
+	{% for project in site.data.projects %}
+		<h4><a href="{{ project.url }}">{{ project.project }}</a></h4>
+		<p class="project-description">{{ project.description }}</p>
+	{% endfor %}	
+</div>
