@@ -15,6 +15,7 @@
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 	{% endif %}
 	<link href="/css/style.css" rel="stylesheet">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
 <body>
 	<header itemtype="http://schema.org/WPHeader" role="banner" class="site-header" 	id="masthead">
