@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:700,400);
+@import url(//fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic);
 
 /* General */
 
@@ -123,7 +123,7 @@ a, a:visited, a:focus, a:active {
 
 a:hover {
     color: #e60000;
-    text-decoration: underline;
+    border-bottom: 1px solid #e60000;
 }
 
 .header-name a, .page-title a {
