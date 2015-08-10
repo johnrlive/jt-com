@@ -2,3 +2,5 @@ name: Jordan Tuwiner
 permalink: /:categories/:title/
 url: "https://jordantuwiner.com"
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+gems:
+  - jekyll-redirect-from
