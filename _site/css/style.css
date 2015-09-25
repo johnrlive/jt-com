@@ -1,6 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic);
-
 /* General */
 
 body {
@@ -123,13 +120,19 @@ a, a:visited, a:focus, a:active {
 
 a:hover {
     color: #e60000;
-    text-decoration: underline;
+    border-bottom: 1px solid #e60000;
 }
 
 .header-name a, .page-title a {
 	color: #444;
 }
 
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: #444 !important;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+	color: #444 !important;
+	border-bottom: 1px solid #444;
 }
