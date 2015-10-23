@@ -15,13 +15,18 @@
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 	{% endif %}
 	{% include analytics.html %}
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="/css/style.css" rel="stylesheet">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
 <body>
 	<header itemtype="http://schema.org/WPHeader" role="banner" class="site-header" 	id="masthead">
-		<h3 class="header-name"><a href="/">Jordan Tuwiner</a></h3>
-		{% include nav.html %}
+	<div class="me-wrap">
+	<a class="me" href="/">
+	<img src="/images/profile.jpg">
+	</a>
+	<h3 class="header-name"><a href="/">Jordan Tuwiner</a></h3>
+	</div>
+	{% include nav.html %}
 	</header>

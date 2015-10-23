@@ -1,14 +1,8 @@
 - name: About
   url: /
   
-- name: Projects
-  url: /projects/
+# - name: Email Me
+#  url: mailto:jordan@jordantuwiner.com
   
-- name: Email Me
-  url: mailto:jordan@jordantuwiner.com
-  
-- name: Donate bitcoin
-  url: https://coinbase.com/jordan
-  
-
-  
+# - name: Donate bitcoin
+#  url: https://coinbase.com/jordan
