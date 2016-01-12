@@ -3,7 +3,12 @@ layout: default
 title: Home
 ---
 
-{% include intro.html %}
+<section class="intro">
+  <div class="container">
+    <p class="lead">Hi, I'm <strong class="author-name" itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>. <br>
+    {{ site.author.bio }} -- <a href="{{ '/about' | prepend: site.author.url }}" target="_blank">about me</a></p>
+  </div>
+</section>
 
 <section class="post-list">
   <div class="container">
@@ -18,6 +23,26 @@ title: Home
   </div>
 
   <div class="container">
-    {% include pagination.html %}
+    {% if paginator.total_pages > 1 %}
+<nav class="pagination" role="pagination">
+  <ul>
+    {% assign url = site.baseurl | append: "/" %}
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page > 1 %}
+        {% assign prev = 'page/' | append: paginator.previous_page %}
+      {% endif %}
+      <li><a class="prev" href="{{ url | append: prev }}" title="Articles new">&laquo; Prev</a></li>
+    {% else %}
+      <li><span class="prev disabled">&laquo; Prev</span></li>
+    {% endif %}
+    <li><span class="page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span></li>
+    {% if paginator.next_page %}
+      <li><a class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Articles old">Next &raquo;</a></li>
+    {% else %}
+      <li><span class="next disabled">Next &raquo;</span></li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}
   </div>
 </section>
