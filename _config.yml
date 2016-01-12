@@ -2,22 +2,21 @@
 # SEO settings
 title: Jordan Tuwiner
 description: "Bitcoin"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
 url: "https://www.jordantuwiner.com"
 baseurl: ""
 
 google_analytics: UA-46723158-1
-repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: "fernandomoreira"
+repo: https://github.com/JTuwiner/jtuwiner.github.io
+disqus_shortname:
 
 # Build settings
-permalink   : /:year/:title/
+permalink   : /:title/
 markdown    : kramdown
 highlighter : pygments
 
 paginate: 4
 paginate_path: "/page/:num/"
-comments: true
+comments: false
 
 source: source
 destination: _site
@@ -29,21 +28,21 @@ sass:
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name     : Jordan Tuwiner
+  job      : None
+  bio      : "I’m passionate about Bitcoin, economics, and freedom. I created Buy Bitcoin Worldwide, where I help people buy bitcoin."
   thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  email    : jordan@jordantuwiner.com
+  url      : https://www.jordantuwiner.com/
+  github   : http://github.com/JTuwiner
+  twitter  : http://twitter.com/jordantuwiner
+  facebook : 
+  linkedin : 
 
 # social settings
-og_locale: "pt_BR"
+og_locale: "en"
 twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
+twitter_site: "@jordantuwiner"
 
 gems:
   - bourbon
@@ -53,7 +52,5 @@ gems:
 navbar:
   - slug : about
     title: About
-  - slug : blog
-    title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
