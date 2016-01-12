@@ -1,12 +1,12 @@
 
 # SEO settings
-title: Simplest
-description: "A free Jekyll theme for download"
+title: Jordan Tuwiner
+description: "Bitcoin"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
 url: "https://www.jordantuwiner.com"
 baseurl: ""
 
-google_analytics: UA-52446115-1
+google_analytics: UA-46723158-1
 repo: http://github.com/nandomoreirame/simplest
 disqus_shortname: "fernandomoreira"
 
