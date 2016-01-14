@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html itemscope="itemscope" itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>{{ page.seotitle }}</title>
+	<meta name="author" content="Jordan Tuwiner">
+	<meta name="description" content="{{ page.description }}">
+	{% if page.title %}
+    <meta content="article" property="og:type">
+	{% else %}
+    <meta content="website" property="og:type">
+	{% endif %}
+	{% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+	{% endif %}
+	{% include analytics.html %}
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="/css/style.css" rel="stylesheet">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+<body>
+	<header itemtype="http://schema.org/WPHeader" role="banner" class="site-header" 	id="masthead">
+	<div class="me-wrap">
+	<a class="me" href="/">
+	<img src="/images/profile.jpg">
+	</a>
+	<h3 class="header-name"><a href="/">Jordan Tuwiner</a></h3>
+	</div>
+	{% include nav.html %}
+	</header>
