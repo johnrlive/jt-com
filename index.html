@@ -1,17 +1,19 @@
 ---
 layout: default
-title: Jordan Tuwiner
-seotitle: Jordan Tuwiner
-description: I’m passionate about Bitcoin, economics, and freedom.
-permalink: "/"
 ---
 
-<div class="entry-content">
+<p>I’m passionate about Bitcoin and economics. I'm currently working on two projects:</p> 
+<ul>
+<li><b><a href="https://www.buybitcoinworldwide.com/">Buy Bitcoin Worldwide</a></b> - The ultimate resource for buying bitcoin. Get help finding an exchange.</li>
+<li><b><a href="https://www.coldhardware.com/">Cold Hardware</a></b> - The premier bitcoin hardware wallet resource.</li>
+</ul>
 
-	<p>I’m passionate about Bitcoin, economics, and freedom. I created <a href="https://www.buybitcoinworldwide.com/">Buy Bitcoin Worldwide</a> and <a href="https://www.coldhardware.com/">Cold Hardware</a>.</p>
-<p>
-<a class="social-link" href="https://twitter.com/jordantuwiner"><i class="fa fa-fw fa-twitter"></i>Twitter</a> 
-<a class="social-link" href="mailto:jordan@jordantuwiner.com"><i class="fa fa-fw fa-envelope-o"></i>Contact</a> 
-<a class="social-link" href="https://github.com/JTuwiner"><i class="fa fa-fw fa-github"></i>Github</a>	
-</p>
+<p>You can read my latest blog posts below:</p> 
+
+<div class="posts-home">
+  {% for post in site.posts %}
+    <article class="post">
+      <h5>{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+    </article>
+  {% endfor %}
 </div>
