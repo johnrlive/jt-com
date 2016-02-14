@@ -3,17 +3,17 @@
 <generator uri="http://jekyllrb.com" version="3.1.1">Jekyll</generator>
 <link href="https://www.jordantuwiner.com/feed.xml" rel="self" type="application/atom+xml" />
 <link href="https://www.jordantuwiner.com/" rel="alternate" type="text/html" />
-<updated>2016-02-14T22:24:07+02:00</updated>
+<updated>2016-02-14T22:24:53+02:00</updated>
 <id>https://www.jordantuwiner.com/</id>
 <title>Jordan Tuwiner</title>
 <subtitle>Human</subtitle>
 <entry>
 <title>Satoshi to Bitcoin: A Bitcoin Calculator</title>
-<link href="https://www.jordantuwiner.com/satoshi-to-bitcoin/" rel="alternate" type="text/html" title="Satoshi to Bitcoin: A Bitcoin Calculator" />
+<link href="https://www.jordantuwiner.com/satoshi-to-btc/" rel="alternate" type="text/html" title="Satoshi to Bitcoin: A Bitcoin Calculator" />
 <published>2016-02-14T00:00:00+02:00</published>
 <updated>2016-02-14T00:00:00+02:00</updated>
 <id>https://www.jordantuwiner.com/satoshi-to-bitcoin</id>
-<content type="html" xml:base="https://www.jordantuwiner.com/satoshi-to-bitcoin/">&lt;p&gt;&lt;a href=&quot;https://21.co/free/&quot;&gt;21’s new payment channels&lt;/a&gt; will use &lt;a href=&quot;https://en.bitcoin.it/wiki/Satoshi_%28unit%29&quot;&gt;satoshis&lt;/a&gt; as a system resource.&lt;/p&gt;
+<content type="html" xml:base="https://www.jordantuwiner.com/satoshi-to-btc/">&lt;p&gt;&lt;a href=&quot;https://21.co/free/&quot;&gt;21’s new payment channels&lt;/a&gt; will use &lt;a href=&quot;https://en.bitcoin.it/wiki/Satoshi_%28unit%29&quot;&gt;satoshis&lt;/a&gt; as a system resource.&lt;/p&gt;
 
 &lt;p&gt;There are already about 2,000 Google searches per month for a satoshi to bitcoin converter. After a few searches I realized there isn’t a simple converter out there, so I created &lt;a href=&quot;http://satoshitobitcoin.co/&quot;&gt;Satoshi to Bitcoin&lt;/a&gt;.&lt;/p&gt;
 

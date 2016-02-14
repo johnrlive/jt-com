@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Satoshi to Bitcoin: A Bitcoin Calculator"
+permalink: "/satoshi-to-btc/"
 ---
 
 [21's new payment channels](https://21.co/free/) will use [satoshis](https://en.bitcoin.it/wiki/Satoshi_%28unit%29) as a system resource. 
