@@ -10,7 +10,7 @@ layout: default
 
 <p>You can read my latest blog posts below:</p> 
 
-<div class="posts-home">
+<div class="posts-home"> 
   {% for post in site.posts %}
     <article class="post">
       <h5>{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
