@@ -1,6 +1,9 @@
 - name: About
   url: /
   
+- name: Consulting
+  url: /consulting/
+  
 # - name: Email Me
 #  url: mailto:jordan@jordantuwiner.com
   
